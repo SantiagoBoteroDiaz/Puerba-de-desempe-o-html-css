@@ -343,7 +343,7 @@ footer {
         gap: 10px   ;
     }
 }
-@media (min-width:601) and (max-width: 1024px){
+@media (min-width: 601px) and (max-width: 1024px) {
     .nav-var {
         width: auto;
     }
