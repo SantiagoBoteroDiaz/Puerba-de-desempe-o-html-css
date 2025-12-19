@@ -1,3 +1,4 @@
+/* zone of root */
 :root {
     --primary-color: #28CB8B;
     --secundary-color: #263238;
@@ -10,6 +11,7 @@
     --tittle-size:60px;
     --footer-color:#263238;
 }
+/* global aspect */
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ p {
 body {
     background-color: var(--primar-back);
 }
+/* zone of nav-var */
 header {
      background-color: var(--primary-back);
      margin: 0;
@@ -63,6 +66,7 @@ header {
     color: var(--text-secundary);
     font-size: 15px;
 }
+/* First section */
 .image {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -84,6 +88,7 @@ h1, .tittle h2 {
 .text {
     font-size: 20px;
 }
+
 .regist {
     margin-top: 5%;
     height:60px ;
@@ -94,6 +99,7 @@ h1, .tittle h2 {
     background-color: var(--primary-color);
     color: var(--text-secundary);
 }
+/* zone of clients */
 .clients {
     margin-top: 200px;
     text-align: center;
@@ -140,6 +146,7 @@ h1, .tittle h2 {
     width: 200px;
     margin: 0 auto;
 }
+/* zone of use */
 .usen  {
     background-color: var(--secundary-back);
     display: flex;
@@ -195,6 +202,7 @@ h1, .tittle h2 {
 .c {
     gap: 50px;
 }
+/* zone of caring marketing */
 .caring {
     text-align: center;
     padding: 10%;
@@ -228,12 +236,14 @@ h1, .tittle h2 {
     color: var(--primary-color);
     font-size: 20px;
 }
+/* zone of demo */
 .demo {
     width: 60%;
     margin: 0 auto;
     font-size: var(--tittle-size);
     text-align: center;
 } 
+/* zone of footer */
 footer {
     background-color: var(--footer-color);
     margin-top: 200px;
@@ -282,6 +292,7 @@ footer {
     border-radius: 10px;
     margin-top: 20px;
 }
+/* responsive */
 @media (max-width: 600px) {
     .nav-var {
         width: auto;
@@ -332,7 +343,7 @@ footer {
         gap: 10px   ;
     }
 }
-@media (max-width: 1024px){
+@media (min-width:601) and (max-width: 1024px){
     .nav-var {
         width: auto;
     }
